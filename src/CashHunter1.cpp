@@ -25,7 +25,6 @@ CashHunter1::CashHunter1()
 	setCurrentRoad(RoadLocation::ROAD_MIDDLE);
 
 	m_health = 3;
-	m_powerUp = 0;
 }
 
 
@@ -47,24 +46,19 @@ void CashHunter1::draw()
 
 void CashHunter1::update()
 {
-	//setPosition(getPosition());
-	//setPowerUp(ScoreBoardManager::Instance()->getPowerUp());
 }
-
-
-
 
 void CashHunter1::clean()
 {
-	
 }
 
+//Handle the movement of player the right
 void CashHunter1::moveRight()
 {
 	int currentRoad = getCurrentRoad();
 
 	if (currentRoad != ROAD_RIGHT) {
-		
+		//check the current road and change the road to the next on the right
 		switch (currentRoad)
 		{
 		case ROAD_LEFT:
@@ -91,13 +85,13 @@ void CashHunter1::moveRight()
 	}
 	
 }
-
+//Handle the movement of player and enemy to the left
 void CashHunter1::moveLeft()
 {
 	int currentRoad = getCurrentRoad();
 
 	if (currentRoad != ROAD_LEFT) {
-
+		//check the current road and change the road to the next on the right
 		switch (currentRoad)
 		{
 		case ROAD_MIDDLE_LEFT:
@@ -135,12 +129,9 @@ void CashHunter1::setCurrentRoad(int currentRoad)
 
 
 
-void CashHunter1::setPowerUp(int value)
-{
-	m_powerUp = value;
-}
 
-//decrease life when hit on comet and check the life at the same time
+
+//decrease life when hit on dynamite and check the life at the same time, if zero, end the game
 void CashHunter1::decreaseLife()
 {
 	m_health -= 1;
@@ -151,37 +142,3 @@ void CashHunter1::decreaseLife()
 	}
 }
 
-
-void CashHunter1::m_checkBounds()
-{
-
-	if (getPosition().x > Config::SCREEN_WIDTH)
-	{
-		setPosition(glm::vec2(0.0f, getPosition().y));
-	}
-
-	if (getPosition().x < 0)
-	{
-		setPosition(glm::vec2(800.0f, getPosition().y));
-	}
-
-	if (getPosition().y > Config::SCREEN_HEIGHT)
-	{
-		setPosition(glm::vec2(getPosition().x, 0.0f));
-	}
-
-	if (getPosition().y < 0)
-	{
-		setPosition(glm::vec2(getPosition().x, 600.0f));
-	}
-
-}
-
-void CashHunter1::m_reset()
-{
-	setIsColliding(false);
-	int halfWidth = getWidth() * 0.5;
-	int xComponent = rand() % (640 - getWidth()) + halfWidth + 1;
-	int yComponent = -getHeight();
-	setPosition(glm::vec2(xComponent, yComponent));
-}

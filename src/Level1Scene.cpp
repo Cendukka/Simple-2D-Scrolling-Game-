@@ -16,10 +16,9 @@ Level1Scene::Level1Scene()
 Level1Scene::~Level1Scene()
 {
 }
-
+//Draw the gameobjects for the game
 void Level1Scene::draw()
 {
-	//draws game objects
 	m_pBackground->draw();
 	m_pBackground->draw();
 	m_pBackground1->draw();
@@ -37,7 +36,7 @@ void Level1Scene::draw()
 
 void Level1Scene::update()
 {
-
+	//Check if the finlan score is achieved
 	if (ScoreBoardManager::Instance()->getPlayerScore() >= 50000)
 	{
 		
@@ -48,17 +47,18 @@ void Level1Scene::update()
 
 		TheGame::Instance()->changeSceneState(SceneState::END_SCENE);
 	}
-	//update car
+	//update player and enemy
 	m_pCashHunter1->update();
 	m_pCashHunter2->update();
-	//update
+	//update dynamites
 	for (int i = 0; i < MAX_DYNAMITE; i++) {
 		m_pDynamites[i]->update();
 	}
+	//update the cash
 	for (int i = 0; i < MAX_CASH; i++) {
 		m_pCashes[i]->update();
 	}
-
+	//Check collisions on dynamite
 	for (int i = 0; i < MAX_DYNAMITE; i++)
 	{
 		if (Collision::squaredRadiusCheck(m_pCashHunter1, m_pDynamites[i]))
@@ -70,6 +70,7 @@ void Level1Scene::update()
 			m_pCashHunter2->decreaseLife();
 		}
 	}
+	// Check collisions on cash
 	for (int i = 0; i < MAX_CASH; i++)
 	{
 		Collision::squaredRadiusCheck(m_pCashHunter1, m_pCashes[i]);
@@ -78,7 +79,7 @@ void Level1Scene::update()
 	
 	m_pBackground->update();
 	m_pBackground1->update();
-	
+	//check if it is needed to raise tempo of the game
 	raiseTempo(ScoreBoardManager::Instance()->getPlayerScore());
 	raiseTempo(ScoreBoardManager::Instance()->getEnemyScore());
 }
@@ -150,7 +151,7 @@ void Level1Scene::handleEvents()
 
 				break;
 			case SDLK_a:
-				m_pCashHunter1->moveLeft();
+				m_pCashHunter1->moveLeft(); // Move the characters 
 				m_pCashHunter2->moveRight();
 				break;
 			case SDLK_d:
@@ -204,13 +205,14 @@ void Level1Scene::start()
 		m_pCashes[i]->setParent(this);
 		addChild(m_pCashes[i]);
 	}
+	//Set the scoremanager on and initialize score and health
 	ScoreBoardManager::Instance()->Start();
 	ScoreBoardManager::Instance()->setPlayerScore(0);
 	ScoreBoardManager::Instance()->setEnemyScore(0);
 	ScoreBoardManager::Instance()->setPlayerHealth(Config::PLAYER_HEALTH);
 	ScoreBoardManager::Instance()->setEnemyHealth(Config::ENEMY_HEALTH);
 
-	//play the walk sound
+	//play the walk background sound
 	TheSoundManager::Instance()->playSound("walk", -1);
 
 	m_pBackground->setParent(this);
@@ -223,7 +225,7 @@ void Level1Scene::start()
 	addChild(m_pCashHunter1);
 	addChild(m_pCashHunter2);
 }
-
+//Function to check the c urrent score and speed up the game speed
 void Level1Scene::raiseTempo(int playerEnemyScore)
 {
 	

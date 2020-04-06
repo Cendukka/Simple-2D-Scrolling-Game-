@@ -13,7 +13,7 @@ Background::Background()
 	setType(GameObjectType::BACK_GROUND);
 
 	setFlowingSpeed(2.0);
-	setStartingPosition(glm::vec2(getPosition().x, getPosition().y + 5));
+	setStartingPosition(glm::vec2(getPosition().x, getPosition().y + 25));
 	
 	
 }
@@ -33,7 +33,7 @@ void Background::draw()
 
 
 }
-
+//update the background and scroll it down
 void Background::update()
 {
 	//update the position of the background
@@ -41,7 +41,7 @@ void Background::update()
 	glm::vec2 currentPositionTemp = getPosition();
 	currentPositionTemp.y += getFlowingSpeed();
 	setPosition(currentPositionTemp);
-	//reset the background position if the current x position is -texture size
+	//reset the background position if the current y position over the screen
 	if(getPosition().y >=  size.y*1.5)
 	{
 		setPosition(glm::vec2(getStartingPosition().x , getStartingPosition().y - getHeight()));

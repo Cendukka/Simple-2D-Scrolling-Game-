@@ -14,7 +14,7 @@ WinScene::WinScene()
 WinScene::~WinScene()
 {
 }
-
+//Draw the gameobjects for the scene
 void WinScene::draw()
 {
 	m_pBackground->draw();

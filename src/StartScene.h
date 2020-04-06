@@ -1,3 +1,12 @@
+/**
+** File: StartScene.h
+** Author: Samuli Lehtonen
+** Student ID: 301121118
+** Last modified by Samuli
+** Last modified: April 6th 2020
+** Program description: Header file for the Start Scene, the menu screen of the game
+** Revision History: 1
+*/
 #pragma once
 #ifndef __START_SCENE__
 #define __START_SCENE__

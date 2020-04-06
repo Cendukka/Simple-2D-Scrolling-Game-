@@ -1,3 +1,12 @@
+/**
+** File: EndScene.h
+** Author: Samuli Lehtonen
+** Student ID: 301121118
+** Last modified by Samuli
+** Last modified: April 6th 2020
+** Program description: Header file for the End Scene, the Game over screen of the game
+** Revision History: 1
+*/
 #pragma once
 #ifndef __END_SCENE__
 #define __END_SCENE__

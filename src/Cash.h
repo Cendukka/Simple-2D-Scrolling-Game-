@@ -1,3 +1,13 @@
+/**
+** File: Cash.h
+** Author: Samuli Lehtonen
+** Student ID: 301121118
+** Last modified by Samuli
+** Last modified: April 6th 2020
+** Program description: Header file for the Cash gameobject,
+*** the gameobject that will represent collectable cash and it will increase the players cash amount when collided
+** Revision History: 1
+*/
 #pragma once
 #ifndef __CASH__
 #define __CASH__

@@ -15,10 +15,10 @@ InstruScene::InstruScene()
 InstruScene::~InstruScene()
 {
 }
-
+//Draw the gameobjects for the scene
 void InstruScene::draw()
 {
-	//draws game objects
+	
 	m_pBackground->draw();
 	m_pBackground1->draw();
 	m_pInstruTitleLabel->draw();
@@ -77,7 +77,7 @@ void InstruScene::handleEvents()
 			switch (event.button.button)
 			{
 			case SDL_BUTTON_LEFT:
-
+				//check the button and register the click
 				if (m_mouseRegister < 1) {
 					m_mouseRegister = 1;
 					m_pMenuButton->setMouseButtonClicked(true);

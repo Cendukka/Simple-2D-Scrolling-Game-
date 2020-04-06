@@ -43,14 +43,14 @@ void Cash::draw()
 
 void Cash::update()
 {
-	//Move the enemies forward
+	//Move the cash down
 		
 	setPosition(glm::vec2(getPosition().x, getPosition().y + getMovingSpeed()));
-	std::cout << Util::RandomRangeInt(-200, 0) <<std::endl;
 	
+	//if the cash y position is over screen, change it position back to up
 	if (getPosition().y >= Config::SCREEN_WIDTH) {
-		
-		draw(Util::RandomRangeInt(0,4));
+		//draw the cash again on a random road
+		draw(Util::RandomRangeInt(ROAD_LEFT, ROAD_RIGHT));
 	}
 }
 
@@ -100,7 +100,7 @@ void Cash::setMovingSpeed(float newMovingSpeed)
 
 
 
-//Drawing 
+//Drawing the cash into new position above the screen on a random road
 void Cash::draw(int roadLoation)
 {
 	

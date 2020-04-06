@@ -1,3 +1,13 @@
+/**
+** File: ScoreBoardManager.h
+** Author: Samuli Lehtonen
+** Student ID: 301121118
+** Last modified by Samuli
+** Last modified: April 6th 2020
+** Program description: Header file for the scoreboard manager, 
+*** the manager that will hold and handle the score and health of the characters
+** Revision History: 1
+*/
 #pragma once
 #ifndef __SCORE_BOARD_MANAGER__
 #define __SCORE_BOARD_MANAGER__

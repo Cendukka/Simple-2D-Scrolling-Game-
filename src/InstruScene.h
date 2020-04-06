@@ -1,3 +1,12 @@
+/**
+** File: InstruScene.h
+** Author: Samuli Lehtonen
+** Student ID: 301121118
+** Last modified by Samuli
+** Last modified: April 6th 2020
+** Program description: Header file for the Instruction Scene, the info screen of the game
+** Revision History: 1
+*/
 #pragma once
 #ifndef __INSTRU_LEVEL__
 #define __INSTRU_LEVEL__

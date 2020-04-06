@@ -1,3 +1,13 @@
+/**
+** File: CashHunter2.h
+** Author: Samuli Lehtonen
+** Student ID: 301121118
+** Last modified by Samuli
+** Last modified: April 6th 2020
+** Program description: Header file for the Enemy cash hunter,
+*** controlled also by the player but purpose is to kill him or prevent him to collect cash
+** Revision History: 1
+*/
 #pragma once
 #ifndef __CASH_HUNTER2__
 #define __CASH_HUNTER2__
@@ -35,13 +45,9 @@ public:
 private:
 
 	
-	void m_checkBounds();
-
-	void m_reset();
 
 	//health
 	int m_health;
-	int m_powerUp;
 	
 	int m_currentRoad;
 

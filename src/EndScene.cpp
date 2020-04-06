@@ -14,7 +14,7 @@ EndScene::EndScene()
 EndScene::~EndScene()
 {
 }
-
+//Draw the gameobjects for the scene
 void EndScene::draw()
 {
 	m_pBackground->draw();
@@ -75,11 +75,12 @@ void EndScene::handleEvents()
 
 void EndScene::start()
 {
+	//Get the current scores and lifes
 	int theScore = ScoreBoardManager::Instance()->getPlayerScore();
 	int theEvilScore = ScoreBoardManager::Instance()->getEnemyScore();
 	int theLifes = ScoreBoardManager::Instance()->getPlayerHealth();
 	int theEvilLifes = ScoreBoardManager::Instance()->getEnemyHealth();
-	
+	//Make labels to show information about the player statistics after he has lost
 	SDL_Color blue = { 0, 0, 255, 255 };
 	SDL_Color red = { 255, 0, 0, 255 };
 	m_LabelGameOver = new Label("GAME OVER", "helsinki", 80, red, glm::vec2(400.0f, 40.0f));
@@ -111,6 +112,6 @@ void EndScene::start()
 
 	
 	
-	//play the music
+	//play the losing music
 	TheSoundManager::Instance()->playSound("lost", 0);
 }

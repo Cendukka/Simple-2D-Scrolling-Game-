@@ -1,3 +1,13 @@
+/**
+** File: CashHunter1.h
+** Author: Samuli Lehtonen
+** Student ID: 301121118
+** Last modified by Samuli
+** Last modified: April 6th 2020
+** Program description: Header file for the Player cash hunter, 
+*** controlled  by the player, purpose is to collect cash and dodge dynamites
+** Revision History: 1
+*/
 #pragma once
 #ifndef __CASH_HUNTER1__
 #define __CASH_HUNTER1__
@@ -34,14 +44,9 @@ public:
 	void decreaseLife();
 private:
 
-	
-	void m_checkBounds();
-
-	void m_reset();
 
 	//health
 	int m_health;
-	int m_powerUp;
 	
 	int m_currentRoad;
 

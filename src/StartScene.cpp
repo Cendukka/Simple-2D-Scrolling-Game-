@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <iomanip>
 
+
 StartScene::StartScene()
 {
 	StartScene::start();
@@ -13,7 +14,7 @@ StartScene::StartScene()
 StartScene::~StartScene()
 {
 }
-
+//Draw the gameobjects for the scene
 void StartScene::draw()
 {
 	m_pBackground->draw();
@@ -137,9 +138,10 @@ void StartScene::start()
 	addChild(m_pInstruButton);
 	addChild(m_pBackground);
 	addChild(m_pBackground1);
-	
+
+	//Load all sound files only once
 	if (!TheSoundManager::Instance()->getSoundsLoaded()) {
-		//Load sound files
+		
 		TheSoundManager::Instance()->load("../Assets/audio/theme.ogg", "theme", SOUND_MUSIC);		//Start scene background
 		TheSoundManager::Instance()->load("../Assets/audio/Menu.mp3", "menu", SOUND_SFX);			//Menu button sounds
 		TheSoundManager::Instance()->load("../Assets/audio/walk.ogg", "walk", SOUND_SFX);			//Walking sounds
@@ -152,6 +154,6 @@ void StartScene::start()
 		TheSoundManager::Instance()->setSoundsLoaded(true);
 	}
 
-	//play the background music
+	//play the background music for menu
 	TheSoundManager::Instance()->playMusic("theme", -1);
 }
