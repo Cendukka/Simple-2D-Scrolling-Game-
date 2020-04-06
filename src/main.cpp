@@ -38,7 +38,7 @@ int main(int argc, char * args[])
 	freopen("CON", "w", stdout);
 
 
-	TheGame::Instance()->init("Hello World", 100, 100, 800, 600, false);
+	TheGame::Instance()->init("Cash Hunt", 100, 100, 800, 600, false);
 	
 
 	// The main Game Loop
