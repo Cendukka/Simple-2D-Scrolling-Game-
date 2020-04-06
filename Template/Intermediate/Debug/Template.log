@@ -1,13 +1,617 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (D:\GitHub\Simple-2D-Scrolling-Game-\Template\Intermediate\Debug\) contains files shared from another project (Template.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (D:\GitHub\Simple-2D-ScrollingGame\Template\Intermediate\Debug\) contains files shared from another project (Template.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_widgets.cpp
+  imgui_sdl.cpp
+  Background.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\Background.cpp(10,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Background.cpp(11,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Background.cpp(15,18): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Background.cpp(28,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Background.cpp(29,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Background1.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\Background1.cpp(13,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Background1.cpp(14,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Background1.cpp(18,18): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Background1.cpp(31,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Background1.cpp(32,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Button.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(11,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(12,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(23,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(24,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(54,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(54,23): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(55,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(55,23): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(56,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(56,20): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(57,32): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Button.cpp(57,21): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+  Cash.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\Cash.cpp(16,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Cash.cpp(17,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Cash.cpp(34,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Cash.cpp(35,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Cash.cpp(91,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  CashHunter1.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\CashHunter1.cpp(18,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\CashHunter1.cpp(19,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\CashHunter1.cpp(37,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\CashHunter1.cpp(38,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  CashHunter2.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\CashHunter2.cpp(18,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\CashHunter2.cpp(19,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\CashHunter2.cpp(37,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\CashHunter2.cpp(38,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  CollisionManager.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(12,15): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(13,15): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(23,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(81,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(82,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(83,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(84,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(105,4): warning C4065: switch statement contains 'default' but no 'case' labels
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(200,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(210,19): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(217,19): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(220,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\CollisionManager.cpp(222,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  DisplayObject.cpp
+  Dynamite.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\Dynamite.cpp(16,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Dynamite.cpp(17,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Dynamite.cpp(34,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Dynamite.cpp(35,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Dynamite.cpp(91,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  EndScene.cpp
+  ExitButton.cpp
+  FontManager.cpp
+  Game.cpp
+  GameObject.cpp
+  InstruButton.cpp
+  Generating Code...
+  Compiling...
+  Label.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\Label.cpp(16,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Label.cpp(17,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Label.cpp(28,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Label.cpp(29,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Label.cpp(54,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Label.cpp(55,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Label.cpp(75,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Label.cpp(76,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Level1Scene.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(109,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(110,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(237,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(240,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(250,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(253,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(263,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(266,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(276,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(279,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(292,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(295,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(306,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Level1Scene.cpp(309,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   InstruScene.cpp
-D:\GitHub\Simple-2D-Scrolling-Game-\src\InstruScene.cpp(73,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\InstruScene.cpp(73,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\GitHub\Simple-2D-Scrolling-Game-\src\InstruScene.cpp(74,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\InstruScene.cpp(74,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
-  Template.vcxproj -> D:\GitHub\Simple-2D-Scrolling-Game-\bin\Debug\Simple2DScrollingGame.exe
+  main.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\main.cpp(28,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  MenuButton.cpp
+  Scene.cpp
+  ScoreBoardManager.cpp
+  SoundManager.cpp
+  StartButton.cpp
+  StartScene.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\StartScene.cpp(60,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\StartScene.cpp(61,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  TextureManager.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(76,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(77,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(120,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(121,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(163,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(164,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(207,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(208,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(237,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(238,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(257,11): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\TextureManager.cpp(258,11): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Util.cpp
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(232,15): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(233,15): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(249,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(283,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(284,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(285,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(286,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(291,59): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(291,52): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(291,45): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(291,36): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(297,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(298,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(299,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(300,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(303,24): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(304,24): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(317,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(318,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(319,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(320,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(325,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(339,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(339,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(340,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(340,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(341,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(341,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(342,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(342,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(346,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(346,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(347,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(347,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(348,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(348,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(349,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(349,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(353,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(353,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(354,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(354,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(355,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(355,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(356,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(356,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(360,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(360,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(361,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(361,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(362,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(362,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(363,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(363,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(367,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(367,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(368,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(368,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(369,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(369,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(370,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(370,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(371,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(371,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(372,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(372,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(373,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(373,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(374,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(374,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(401,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(402,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(407,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(417,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Simple-2D-ScrollingGame\src\Util.cpp(426,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  WinScene.cpp
+  Generating Code...
+  Template.vcxproj -> D:\GitHub\Simple-2D-ScrollingGame\bin\Debug\Simple2DScrollingGame.exe
