@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (D:\GitHub\Simple-2D-Scrolling-Game-\Template\Intermediate\Debug\) contains files shared from another project (Template.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  InstruScene.cpp
+D:\GitHub\Simple-2D-Scrolling-Game-\src\InstruScene.cpp(73,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\GitHub\Simple-2D-Scrolling-Game-\src\InstruScene.cpp(74,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Template.vcxproj -> D:\GitHub\Simple-2D-Scrolling-Game-\bin\Debug\Simple2DScrollingGame.exe
